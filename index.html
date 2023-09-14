@@ -4,77 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Profile - [Your Name]</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #007BFF;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        h1 {
-            font-size: 36px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-        p {
-            margin-bottom: 20px;
-        }
-    </style>
+    <!-- Add Bootstrap CSS CDN link here -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqFjcJ6pajs/rfdfs3SO+kT/Bf/H0Ec5f5j5HPDK" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.min.js" integrity="sha384-0zZ1O5Pcve7Hko5h9p5b5l5P7iZ8E9/c5fdfs3SO+kT/Bf/H0Ec5f5j5HPDK" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
+    <header class="bg-primary text-white text-center py-5">
         <h1>Hasika Oggi</h1>
         <p>Senior at Branham High School</p>
     </header>
 
-    <div class="container">
-        <h2>About Me</h2>
-        <p>
-            Senior at Branham High School | Honors Student at West Valley College | Piano Teacher at The Music Place | Student Board Trustee for Campbell Union High School District
-        </p>
-
-        <h2>Academic Achievements</h2>
-        <p>
-            - Graduated from [Your High School] with honors<br>
-            - GPA: [Your GPA]<br>
-            - Relevant coursework in [Related Subjects]
-        </p>
-
-        <h2>Extracurricular Activities</h2>
-        <p>
-            - Member of [Club/Team Name] - [Your Role]<br>
-            - Volunteer at [Organization Name] - [Description of Volunteer Work]<br>
-            - [Any other relevant extracurricular activities]
-        </p>
-
-        <h2>Interests</h2>
-        <p>
-            My interests include [list some of your hobbies and interests]. I believe these activities have helped me develop skills such as [mention skills developed].
-        </p>
-
-        <h2>Contact Information</h2>
-        <p>
-            Email: [Your Email]<br>
-            Phone: [Your Phone Number]<br>
-            LinkedIn: [Your LinkedIn Profile URL]<br>
-            GitHub: [Your GitHub Profile URL]<br>
-            Address: [Your Address]
-        </p>
+    <div class="container my-5">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#aboutMeTab">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#academicTab">Academic Achievements</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#extracurricularTab">Extracurricular Activities</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#interestsTab">Interests</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#contactTab">Contact Information</a>
+            </li>
+        </ul>
+        
+        <div class="tab-content mt-3">
+            <div id="aboutMeTab" class="tab-pane fade show active">
+                <h2>About Me</h2>
+                <p>
+                    Senior at Branham High School | Honors Student at West Valley College | Piano Teacher at The Music Place | Student Board Trustee for Campbell Union High School District
+                </p>
+            </div>
+            
+            <div id="academicTab" class="tab-pane fade">
+                <h2>Academic Achievements</h2>
+                <p>
+                    - Graduated from [Your High School] with honors<br>
+                    - GPA: [Your GPA]<br>
+                    - Relevant coursework in [Related Subjects]
+                </p>
+            </div>
+            
+            <div id="extracurricularTab" class="tab-pane fade">
+                <h2>Extracurricular Activities</h2>
+                <p>
+                    - Member of [Club/Team Name] - [Your Role]<br>
+                    - Volunteer at [Organization Name] - [Description of Volunteer Work]<br>
+                    - [Any other relevant extracurricular activities]
+                </p>
+            </div>
+            
+            <div id="interestsTab" class="tab-pane fade">
+                <h2>Interests</h2>
+                <p>
+                    My interests include [list some of your hobbies and interests]. I believe these activities have helped me develop skills such as [mention skills developed].
+                </p>
+            </div>
+            
+            <div id="contactTab" class="tab-pane fade">
+                <h2>Contact Information</h2>
+                <p>
+                    Email: [Your Email]<br>
+                    Phone: [Your Phone Number]<br>
+                    LinkedIn: [Your LinkedIn Profile URL]<br>
+                    GitHub: [Your GitHub Profile URL]<br>
+                    Address: [Your Address]
+                </p>
+            </div>
+        </div>
     </div>
+
+    <!-- Add Bootstrap JS and jQuery CDN links here if needed -->
+
 </body>
 </html>
