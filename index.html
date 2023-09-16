@@ -18,13 +18,13 @@
         }
 
         section {
-            padding: 5px 0;
+            padding: 20px 0;
             padding-top: 60px;
             /* Add padding to create space between sections */
         }
 
         section#Home {
-            padding-top: 130px;
+            padding-top: 110px;
         }
 
 
@@ -38,13 +38,10 @@
             /* White text for navbar links */
         }
 
-        .navbar-custom .navbar-toggler-icon {
-            background-color: #ffffff;
-            /* White color for the navbar toggle icon */
-        }
+
 
         .container {
-            background-color: #ffffff;
+            background-color: #f0f0f0;
             /* White container background */
             padding: 20px;
             border-radius: 10px;
@@ -52,16 +49,15 @@
             box-shadow: 0px 0px 10px rgba(24, 23, 23, 0.1);
             /* Add a subtle shadow */
         }
-
-        
     </style>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
-        <div class="container">
+        <div style="background-color: #f0f0f0;" class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="fas fa-bars"></i>
+
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
@@ -80,7 +76,7 @@
     </nav>
 
     <section id="Home">
-        <div class="container">
+        <div class="container" style="background-color: white;">
             <div class="row">
                 <div class="col-md-6">
                     <img src="images/hasika.jpeg" class="img-fluid rounded-circle img-position"
@@ -93,9 +89,12 @@
                     <p>Senior at Branham High School | Honors Student at West Valley College | Piano Teacher at The
                         Music Place | Student Board Trustee for Campbell Union High School District</p>
                     <h3>INTERESTS</h3>
-                    <p>Artificial Intelligence</p> 
-                    <p>Machine learning</p> 
-                    <p>Artificial Nureal Network</p>
+                    <ul>
+                        <li>Artificial Intelligence</li>
+                        <li>Machine learning</li>
+                        <li>Artificial Nureal Network</li>
+                        <li>The Big Book Drive</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -103,62 +102,79 @@
     <br>
 
     <section id="Education">
-        <div class="container" >
+        <div class="container">
             <div class="row">
-            
-                    <h1>Education</h1>
-                    <div class="row align-items-center">
-                        <div class="col-md-2" >
-                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" style="margin-top:6px; margin-left: 120px" fill="currentColor"
-                                class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
-                                <path
-                                    d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z" />
-                                <path
-                                    d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z" />
-                            </svg>
-                        </div>
-                        <div class="col-md-10 ">
-                            <h4>Branham High School</h4>
-                            <p style="height: 100%;">Activities and societies: Bruin2Bruin (2020-Present), California Scholarships Federation (2020-Present), National Honor Society (2020-Present), Science Olympiad (2022-Present), Christian Club- President (2020-Present), NAMI - Mental Health Awareness Club - Founder and President (2023-Present), American Red Cross Club (2022-Present), Choir - Madrigals, Superintendent Student Advisory Council member (2022-2023), Student Board Member (2023-Present)</p>
-                        </div>
-                        <div class="col-md-2" >
-                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" style="margin-top:6px; margin-left: 120px" fill="currentColor"
-                                class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
-                                <path
-                                    d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z" />
-                                <path
-                                    d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z" />
-                            </svg>
-                        </div>
-                        <div class="col-md-10 ">
-                            <h4>West valley College</h4>
-                            <p>Activities and societies: Member of the Honors Program at West Valley.Activities and societies: Member of the Honors Program at West Valley.
-                                Courses taken at West Valley College : Psychology, American Sign Language, Human Biology, Medical Terminology, Sports Medicine, Introduction to Java, Introduction to Graphic Design, Understanding Stress: A Multidisciplinary Perspective and Child Growth and Development.</p>
-                        </div>
-                        
+
+                <h1>Education</h1>
+                <div class="row align-items-center">
+                    <div class="col-md-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35"
+                            style="margin-top:6px; margin-left: 120px" fill="currentColor"
+                            class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z" />
+                            <path
+                                d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z" />
+                        </svg>
                     </div>
-                
+                    <div class="col-md-10 ">
+                        <h4>Branham High School</h4>
+                        <p style="height: 100%;">Activities and societies: Bruin2Bruin (2020-Present), California
+                            Scholarships Federation (2020-Present), National Honor Society (2020-Present), Science
+                            Olympiad (2022-Present), Christian Club- President (2020-Present), NAMI - Mental Health
+                            Awareness Club - Founder and President (2023-Present), American Red Cross Club
+                            (2022-Present), Choir - Madrigals, Superintendent Student Advisory Council member
+                            (2022-2023), Student Board Member (2023-Present)</p>
+                    </div>
+                    <div class="col-md-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35"
+                            style="margin-top:6px; margin-left: 120px" fill="currentColor"
+                            class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z" />
+                            <path
+                                d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z" />
+                        </svg>
+                    </div>
+                    <div class="col-md-10 ">
+                        <h4>West valley College</h4>
+                        <p>Activities and societies: Member of the Honors Program at West Valley.Activities and
+                            societies: Member of the Honors Program at West Valley.
+                            Courses taken at West Valley College : Psychology, American Sign Language, Human Biology,
+                            Medical Terminology, Sports Medicine, Introduction to Java, Introduction to Graphic Design,
+                            Understanding Stress: A Multidisciplinary Perspective and Child Growth and Development.</p>
+                    </div>
+
+                </div>
+
 
             </div>
     </section>
     <br>
     <section id="skills">
-        <div class="container space">
+        <div class="container space" style="background-color: white;">
             <h1 style="text-align: center;">Skills</h1>
             <div class="row">
                 <div class="col-md-4">
                     <i class="bi bi-code-slash" style="font-size: 60px; margin-left:130px;"></i>
                     <div style="margin-left: 40px;">
                         <p>
-                        <h5>Programming and tools :</h5> python, java, delegation, ML, AI, ANN</p>
+                        <h5>  &nbsp;Programming and tools </h5> python, java, delegation, ML, AI, ANN</p>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <img src="images/dna-Copy.jpg" class="img-fluid img-position"
-                        style="width: 100px; height:80px ;margin: top 60px; margin-left: 110px;" alt="Responsive image">
+                    <div style="margin-top: 25px; margin-left: 140px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
+                            class="bi bi-hospital" viewBox="0 0 16 16">
+                            <path
+                                d="M8.5 5.034v1.1l.953-.55.5.867L9 7l.953.55-.5.866-.953-.55v1.1h-1v-1.1l-.953.55-.5-.866L7 7l-.953-.55.5-.866.953.55v-1.1h1ZM13.25 9a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25h-.5ZM13 11.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5Zm.25 1.75a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25h-.5Zm-11-4a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5A.25.25 0 0 0 3 9.75v-.5A.25.25 0 0 0 2.75 9h-.5Zm0 2a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25h-.5ZM2 13.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5Z" />
+                            <path
+                                d="M5 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1a1 1 0 0 1 1 1v4h3a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h3V3a1 1 0 0 1 1-1V1Zm2 14h2v-3H7v3Zm3 0h1V3H5v12h1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3Zm0-14H6v1h4V1Zm2 7v7h3V8h-3Zm-8 7V8H1v7h3Z" />
+                        </svg>
+                    </div>
                     <div style="margin-left: 70px;">
                         <p>
-                        <h5>DNA medical:</h5>DNA extraction,suturing, Gel electrophoresis, first aid</p>
+                        <h5> &nbsp; &nbsp; &nbsp;DNA medical</h5>DNA extraction,suturing, Gel electrophoresis, First aid, Blood typing, Delegation</p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -173,7 +189,7 @@
                     </div>
                     <div style="margin-left: 105px;">
                         <p>
-                        <h5>Languages :</h5>English, French, Telugu</p>
+                        <h5>  &nbsp;Languages </h5>English, French, Telugu</p>
                     </div>
                 </div>
             </div>
@@ -186,24 +202,23 @@
             <p><strong>AI Model for early phenomena detection</strong></p>
             <p>Dec 2022 - Dec 2022<br>
                 Developed an AI model that could detect pneumonia at its earliest stages.</p>
-            <img class="rounded" src="assets/img/AI.jpg" alt="">
             <p><strong>Social and non-social anxiety in adolescent and adult <br>rats after repeating restraint</strong>
             </p>
             <p>Jun 2022 - Aug 2022<br>
                 Worked with a group to create a research presentation on an article about social anxiety in teenagers as
                 compared to rats.</p>
-            <img class="rounded" src="assets/img/rat.jpg" alt="">
             <p><strong>How does less sleep affect the body?</strong></p>
             <p>June 2021 - july 2021<br>
                 Researched the effects of less sleep on the body</p>
             <p><strong>Ap computer science principle program</strong></p>
             <p>Aug 2020 - May 2021<br>
                 Developed an AI model that could detect pneumonia at its earliest stages.</p>
+        
         </div>
     </section>
     <br>
     <section id="experience">
-        <div class="container">
+        <div class="container" style="background-color: white;">
             <h1>Experience</h1>
             <div class="row align-items-center">
                 <div class="col-md-2">
@@ -217,11 +232,11 @@
                         Mar, Leigh, Prospect, and Westmont High Schools.</p>
                     <p>Aug 2023-present</p>
                     <h6>Superintendent student advisory council member</h6>
-                    <p>Aug 2022-Aug2023</p>
+                    <p>Aug 2022-Aug2023</p>  <br>
                 </div>
                 <div class="col-md-2">
                     <img src="images/piano.jpg" class="img-fluid rounded-circle"
-                        style="width: 80px; height: 80px; margin-top:6px; margin-left: 120px" alt="Responsive image">
+                        style="width: 80px; height: 80px; margin-top:6px; margin-left: 110px" alt="Responsive image">
                 </div>
                 <div class="col-md-10">
                     <h4>Peer Advocate council member</h4>
@@ -229,7 +244,7 @@
                     <p>The Peer Advocate Advisory Council (PAAC) is a Santa Clara County youth-centered leadership
                         group that engages in community level advocacy and awareness projects ranging from media
                         campaigns, research, and peer-to-peer education.</p>
-                    <p>Aug 2023 - Present</p>
+                    <p>Aug 2023 - Present</p> <br>
 
                 </div>
                 <div class="col-md-2">
@@ -239,7 +254,7 @@
                 <div class="col-md-10">
                     <h4>Piano teachet</h4>
                     <h6>The music plays,inc . part time</h6>
-                    <p>Nov 2022-Present</p>
+                    <p>Nov 2022-Present</p>  <br>
 
                 </div>
                 <div class="col-md-2">
@@ -251,7 +266,7 @@
                     <h6>Silicon valley reads</h6>
                     <p>Served as Student Panel member for Silicon Valley author reads and interviewed author of the book
                         Furia.</p>
-                    <p>Mar 2023</p>
+                    <p>Mar 2023</p>  <br>
 
                 </div>
             </div>
@@ -267,8 +282,51 @@
                         style="width: 50px; height: 50px; margin-top:6px; margin-left: 120px" alt="Responsive image">
                 </div>
                 <div class="col-md-10">
+                    <h4>Summary Statastics in Public Health</h4>
+                    <h6>The Johns hopkins university</h6>
+                    <p>Issued Jul 2023<br>
+                        Credential Id 8CQEKD32Y789
+                    </p>
+
+                </div>
+                <div class="col-md-2">
+                    <img src="images/health.jpg" class="img-fluid rounded-circle"
+                        style="width: 50px; height: 50px; margin-top:6px; margin-left: 120px" alt="Responsive image">
+                </div>
+                <div class="col-md-10">
+                    <h4>CPR (CPR)</h4>
+                    <h6>American Heart Assosiation</h6>
+                    <p>Issued Jun 2023<br>
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <img src="images/public.jpg" class="img-fluid rounded-circle"
+                        style="width: 50px; height: 50px; margin-top:6px; margin-left: 120px" alt="Responsive image">
+                </div>
+                <div class="col-md-10">
+                    <h4>Certified Nursing Assistant</h4>
+                    <h6>California Department of Public Health</h6>
+                    <p>Issued Jun 2023<br>
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <img src="images/bulb.jpg" class="img-fluid rounded-circle"
+                        style="width: 50px; height: 50px; margin-top:6px; margin-left: 120px" alt="Responsive image">
+                </div>
+                <div class="col-md-10">
+                    <h4>Certificate of Completion :AI Scholars Program</h4>
+                    <h6>Inspirit AI</h6>
+                    <p>Issued Dec 2022<br>
+                    </p>
+                </div>
+
+                <div class="col-md-2">
+                    <img src="images/john.jpg" class="img-fluid rounded-circle"
+                        style="width: 50px; height: 50px; margin-top:6px; margin-left: 120px" alt="Responsive image">
+                </div>
+                <div class="col-md-10">
                     <h4>Essential epidemiologic tool for public health practice</h4>
-                    <h5>The Johns hopkins university</h5>
+                    <h6>The Johns hopkins university</h6>
                     <p>Issued Nov 2022<br>
                         CredentialId V4L4K4EBJQX8</p>
                     <a href="pdf/cer1.pdf">Show Credential</a>
@@ -281,20 +339,29 @@
                 <div class="col-md-10">
                     <br>
                     <h4>Fundamental neuroscience for neuroimaging</h4>
-                    <h5>The Johns hopkins university</h5>
+                    <h6>The Johns hopkins university</h6>
                     <p>Issued Nov 2022<br>
                         CredentialId QSXB9YYZ55EB</p>
                     <a href="pdf/cer2.pdf">Show Credential</a>
 
                 </div>
+                <div class="col-md-2">
+                    <img src="images/america.jpg" class="img-fluid rounded-circle"
+                        style="width: 50px; height: 50px; margin-top:6px; margin-left: 120px" alt="Responsive image">
+                </div>
+                <div class="col-md-10"> <br>
+                    <h4>Online CPR/AED and First Aid Combo Course</h4>
+                    <h6>American Red Cross</h6>
+                    <p>Issued May 2022 Expires May 2024<br>
+                    </p>
+                </div>
+
+
             </div>
-
-
-        </div>
     </section>
     <br>
     <footer>
-        <div class="container text-center">
+        <div style="background-color: white;"class="container text-center">
             <p>&copy; 2023. All Rights Reserved.</p>
         </div>
     </footer>
