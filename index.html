@@ -78,12 +78,21 @@
         @media (max-width: 768px) {
             section {
                 padding: 20px 0;
-                padding-top: 30px;
-               
+                padding-top: 35px;
+
                 /* Adjust the top padding as per your preference */
             }
         }
-        
+
+        @media (min-width: 768px) {
+
+            /* Apply styles for screens wider than 768px (desktop) */
+            .navbar-nav .nav-link {
+                margin-left: 90px;
+                /* Adjust the margin as needed */
+
+            }
+        }
     </style>
 
 <body>
@@ -97,7 +106,7 @@
 
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div style="margin-left: 180px;" class="navbar-nav">
+                <div class="navbar-nav">
 
                     <a class="nav-link active text-dark" href="#Home">Home</a>
                     <a class="nav-link active text-dark" href="#Education">Education</a>
