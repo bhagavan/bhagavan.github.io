@@ -157,12 +157,12 @@ section {
 }
 
 /* Span Styles */
-span:hover {
-    color: green;
+.nav-link:hover {
+    color: green !important;
 }
 
 /* Navbar Link Styles */
-.navbar-nav .nav-link .active {
+ .nav-link.active {
     color: green !important; /* Highlight color for the active link */
     font-weight: 700;
 }
